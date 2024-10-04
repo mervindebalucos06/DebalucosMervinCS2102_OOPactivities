@@ -6,7 +6,7 @@ public class MultiplicationTable {
         Scanner scanner = new Scanner(System.in);
         
         // Ask the user for the maximum number for the multiplication table
-        System.out.print("Enter the maximum number for the multiplication table: ");
+        System.out.print("Enter the size of the multiplication table: ");
         int max = scanner.nextInt();
         
         // 2D array to hold the multiplication table
